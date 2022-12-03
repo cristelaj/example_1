@@ -1,0 +1,92 @@
+@font-face {
+    font-family: Moderne Sans;
+    src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/moderne_sans.woff2)
+  }
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    background-image:url(./pictureLogo/wallpaperPaintViolet.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat,
+   
+  }
+  div#fashion {
+    margin-top:-100px ;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .languajeOpcion{
+    color: aliceblue;
+    margin-top:-150px;
+  }
+  .languajeOpcion:hover {
+    background: rgba(255,255,255,0.8);
+    color: #000;
+  }
+  h1 {
+    font-family: Moderne Sans, sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    width: 100%;
+    letter-spacing: .5rem;
+  }
+
+  .languajeOpcion, footer{
+    justify-content: center;
+    text-align: center;
+
+  }
+  nav a {
+    text-decoration: none;
+    color: inherit;
+    padding:1px;
+    letter-spacing: .2rem;
+    font-weight: bold;
+  }
+
+a, footer{
+    margin: 60px;
+    font-size: 30px;
+}
+
+  h2 { 
+    font-family: Century Schoolbook, Century Schoolbook L, Georgia, serif;
+    font-size: 8vmin;
+    text-align: center;
+    margin: 2rem 3rem 0;
+    mix-blend-mode:normal;
+    color:white;
+    font-weight: bold;
+    ;
+  }
+
+  footer{
+    color: aliceblue;
+  }
+
+
+/*
+  @media screen and (max-width: 2000px){
+    nav a {
+        margin-left:280px;
+      }
+}
+
+  @media screen and (max-width:700px){
+    nav a {
+        margin-left:150px;
+      }
+}
+
+@media screen and (max-width:1000px){
+    nav a {
+        margin-left:220px;
+      }
+} */
+
+ 
